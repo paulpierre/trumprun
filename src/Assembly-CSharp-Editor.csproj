@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{D4AED7E1-808E-A79D-E299-83E476DB1FFD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_TEXTUREID_MAP;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;WWW_USE_CURL;HAS_NEON_SKINNIG;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_IL2CPP;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;PLAYMAKER;PLAYMAKER_1_8;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;ENABLE_DUCK_TYPING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\CharacterSelectorPlusold\Editor\SelectorEditorExt.cs" />
+     <Compile Include="Assets\CharacterSelectorPlusold\Editor\SelectorManagerExt.cs" />
+     <Compile Include="Assets\Extensions\AndroidManifestManager\Editor\AN_ManifestManagerMenu.cs" />
+     <Compile Include="Assets\Extensions\AndroidManifestManager\Editor\AN_ManifestManagerWindow.cs" />
+     <Compile Include="Assets\Extensions\AndroidManifestManager\Editor\AddPermissionDialog.cs" />
+     <Compile Include="Assets\Extensions\AndroidManifestManager\Editor\AddPropertyDialog.cs" />
+     <Compile Include="Assets\Extensions\AndroidManifestManager\Editor\AddValueDialog.cs" />
+     <Compile Include="Assets\Extensions\AndroidNative\Editor\AndroidNativePostProcess.cs" />
+     <Compile Include="Assets\Extensions\AndroidNative\Editor\AndroidNativeSettingsEditor.cs" />
+     <Compile Include="Assets\Extensions\GoogleAnalytics\Editor\GoogleAnalyticsEdiotrCore.cs" />
+     <Compile Include="Assets\Extensions\GoogleAnalytics\Editor\GoogleAnalyticsMenu.cs" />
+     <Compile Include="Assets\Extensions\GoogleAnalytics\Editor\GoogleAnalyticsSettingsEditor.cs" />
+     <Compile Include="Assets\Extensions\GoogleMobileAd\Scripts\Editor\GoogleMobileAdPostProcess.cs" />
+     <Compile Include="Assets\Extensions\GoogleMobileAd\Scripts\Editor\GoogleMobileAdSettingsEditor.cs" />
+     <Compile Include="Assets\Extensions\GoogleMobileAd\Scripts\Editor\ScarletPostProcessor.cs" />
+     <Compile Include="Assets\Extensions\GooglePlayCommon\Editor\SocialPlatfromSettingsEditor.cs" />
+     <Compile Include="Assets\Extensions\GooglePlayCommon\Editor\SocialPlatfromSettingsHelper.cs" />
+     <Compile Include="Assets\Extensions\IOSDeploy\Scripts\Editor\IOSDeployPostProcess.cs" />
+     <Compile Include="Assets\Extensions\IOSDeploy\Scripts\Editor\ISDMenu.cs" />
+     <Compile Include="Assets\Extensions\IOSDeploy\Scripts\Editor\ISDSettingsEditor.cs" />
+     <Compile Include="Assets\Extensions\IOSNative\Editor\IOSNativePostProcess.cs" />
+     <Compile Include="Assets\Extensions\IOSNative\Editor\IOSNativeSettingsEditor.cs" />
+     <Compile Include="Assets\Extensions\MobileNativePopUps\Editor\MNP_PlatformSettings.cs" />
+     <Compile Include="Assets\Extensions\MobileNativePopUps\Editor\MNP_PlatformSettingsEditor.cs" />
+     <Compile Include="Assets\Extensions\StansAssetsCommon\Editor\PluginsInstalationUtil.cs" />
+     <Compile Include="Assets\Extensions\StansAssetsCommon\Editor\SA_Bool.cs" />
+     <Compile Include="Assets\Extensions\StansAssetsCommon\Editor\SA_EditorTool.cs" />
+     <Compile Include="Assets\Extensions\StansAssetsCommon\Editor\SA_RemoveTool.cs" />
+     <Compile Include="Assets\Extensions\StansAssetsCommon\Editor\SA_VersionsManager.cs" />
+     <Compile Include="Assets\Extensions\UltimateMobile\Scripts\Editor\UMEditorMenu.cs" />
+     <Compile Include="Assets\Extensions\UltimateMobile\Scripts\Editor\UMSettingEditor.cs" />
+     <Compile Include="Assets\Extensions\UltimateMobile\Scripts\Editor\UM_Init.cs" />
+     <Compile Include="Assets\Extensions\WP8Native\Editor\WP8NativeSettingsEditor.cs" />
+     <Compile Include="Assets\Gamestrap UI\Editor\GamestrapHelper.cs" />
+     <Compile Include="Assets\Gamestrap UI\Editor\GamestrapUI.cs" />
+     <Compile Include="Assets\Gamestrap UI\Editor\GamestrapUIPrefabs.cs" />
+     <Compile Include="Assets\Gamestrap UI\Editor\Theme\GamestrapTheme.cs" />
+     <Compile Include="Assets\Holoville\HOTween Extensions\HOTweenManager\Editor\Core\HOTweenEditorGUI.cs" />
+     <Compile Include="Assets\Holoville\HOTween Extensions\HOTweenManager\Editor\Core\HOTweenEditorVars.cs" />
+     <Compile Include="Assets\Holoville\HOTween Extensions\HOTweenManager\Editor\Core\HOTweenPanelMode.cs" />
+     <Compile Include="Assets\Holoville\HOTween Extensions\HOTweenManager\Editor\Core\IHOTweenPanel.cs" />
+     <Compile Include="Assets\Holoville\HOTween Extensions\HOTweenManager\Editor\HOTweenComponentInspector.cs" />
+     <Compile Include="Assets\Holoville\HOTween Extensions\HOTweenManager\Editor\HOTweenEditor.cs" />
+     <Compile Include="Assets\Holoville\HOTween Extensions\HOTweenManager\Editor\HOTweenManagerInspector.cs" />
+     <Compile Include="Assets\PlayMaker Animator\Actions\Editor\GetAnimatorBoneGameObjectActionEditor.cs" />
+     <Compile Include="Assets\PlayMaker\Actions\Editor\LookAtActionEditor.cs" />
+     <Compile Include="Assets\PlayMaker\Actions\Editor\MoveTowardsActionEditor.cs" />
+     <Compile Include="Assets\PlayMaker\Actions\Editor\SetCameraFOVActionEditor.cs" />
+     <Compile Include="Assets\PlayMaker\Editor\AboutWindow.cs" />
+     <Compile Include="Assets\PlayMaker\Editor\ContextToolWindow.cs" />
+     <Compile Include="Assets\PlayMaker\Editor\FsmActionWindow.cs" />
+     <Compile Include="Assets\PlayMaker\Editor\FsmComponentInspector.cs" />
+     <Compile Include="Assets\PlayMaker\Editor\FsmEditorHelpers.cs" />
+     <Compile Include="Assets\PlayMaker\Editor\FsmEditorWindow.cs" />
+     <Compile Include="Assets\PlayMaker\Editor\FsmErrorWindow.cs" />
+     <Compile Include="Assets\PlayMaker\Editor\FsmEventsWindow.cs" />
+     <Compile Include="Assets\PlayMaker\Editor\FsmGlobalsWindow.cs" />
+     <Compile Include="Assets\PlayMaker\Editor\FsmLogWindow.cs" />
+     <Compile Include="Assets\PlayMaker\Editor\FsmSelectorWindow.cs" />
+     <Compile Include="Assets\PlayMaker\Editor\FsmStateWindow.cs" />
+     <Compile Include="Assets\PlayMaker\Editor\FsmTemplate.cs" />
+     <Compile Include="Assets\PlayMaker\Editor\FsmTemplateEditor.cs" />
+     <Compile Include="Assets\PlayMaker\Editor\FsmTemplateWindow.cs" />
+     <Compile Include="Assets\PlayMaker\Editor\PlayMakerAutoUpdater.cs" />
+     <Compile Include="Assets\PlayMaker\Editor\PlayMakerBugReportWindow.cs" />
+     <Compile Include="Assets\PlayMaker\Editor\PlayMakerCustomActionWizard.cs" />
+     <Compile Include="Assets\PlayMaker\Editor\PlayMakerGUIInspector.cs" />
+     <Compile Include="Assets\PlayMaker\Editor\PlayMakerGlobalsInspector.cs" />
+     <Compile Include="Assets\PlayMaker\Editor\PlayMakerMainMenu.cs" />
+     <Compile Include="Assets\PlayMaker\Editor\PlayMakerUpgradeGuide.cs" />
+     <Compile Include="Assets\PlayMaker\Editor\PlayMakerWelcomeWindow.cs" />
+     <Compile Include="Assets\PlayMaker\Editor\ReportWindow.cs" />
+     <Compile Include="Assets\SimpleIAPSystem\Editor\AboutSISEditor.cs" />
+     <Compile Include="Assets\SimpleIAPSystem\Editor\IAPEditor.cs" />
+     <Compile Include="Assets\SimpleIAPSystem\Editor\PluginSetup.cs" />
+     <Compile Include="Assets\SimpleIAPSystem\Editor\RequirementEditor.cs" />
+     <Compile Include="Assets\SimpleIAPSystem\Editor\ReviewWindowEditor.cs" />
+     <Compile Include="Assets\iTween\PlayMaker\Editor\iTweenMoveToActionEditor.cs" />
+     <None Include="Assets\Gamestrap UI\Fonts\ubuntu\UBUNTU FONT LICENCE.txt" />
+     <None Include="Assets\Plugins\Android\AN_Res\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\StansAssets\Versions\AN_VersionInfo.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\OneSignalSDK.txt" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\StansAssets\Android\AN_Res\res\values\analytics.xml" />
+     <None Include="Assets\Gamestrap UI\Fonts\Bebas\Flat-it License.txt" />
+     <None Include="Assets\PlayMaker\Readme.txt" />
+     <None Include="Assets\Plugins\StansAssets\IOS\GMA_SA_Lib_Proxy.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\AN_Res\AndroidManifest.xml" />
+     <None Include="Assets\Extensions\IOSNative\Documentation\ISN_VersionNotes.txt" />
+     <None Include="Assets\Plugins\StansAssets\IOS\GMA_SA_Lib.m.txt" />
+     <None Include="Assets\Plugins\StansAssets\IOS\ISN_iAd.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\IOS\ISN_NSData+Base64.h.txt" />
+     <None Include="Assets\Gamestrap UI\Fonts\Monospace\README.txt" />
+     <None Include="Assets\SimpleIAPSystem\Extensions\remote.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\AN_Res\res\values\version.xml" />
+     <None Include="Assets\Plugins\StansAssets\Android\billing\an_billing.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\social\twitter4j-core-3.0.5.txt" />
+     <None Include="Assets\Gamestrap UI\Fonts\Basis33\LICENSE.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\androidnative.txt" />
+     <None Include="Assets\Plugins\StansAssets\IOS\GMA_SA_Lib.h.txt" />
+     <None Include="Assets\Holoville\HOUnityEditor\Editor\HOEditorGUIFramework.xml" />
+     <None Include="Assets\Extensions\AndroidManifestManager\default.xml" />
+     <None Include="Assets\Extensions\AndroidNative\Documentation\AN_VersionNotes.txt" />
+     <None Include="Assets\Plugins\StansAssets\Versions\GMA_VersionInfo.txt" />
+     <None Include="Assets\SimpleIAPSystem\README.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\google-play-services.txt" />
+     <None Include="Assets\Gamestrap UI\Fonts\PixelFJ8pt1\peace,...txt" />
+     <None Include="Assets\SimpleIAPSystem\Changelog.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\libs\image-chooser-library-1.3.0.txt" />
+     <None Include="Assets\Plugins\Android\AN_Res\res\xml\file_paths.xml" />
+     <None Include="Assets\Plugins\StansAssets\IOS\ISN_NativeCore.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\IOS\ISN_Camera.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\IOS\ISN_InApp.mm.txt" />
+     <None Include="Assets\Gamestrap UI\Fonts\Lato\SIL Open Font License.txt" />
+     <None Include="Assets\Gamestrap UI\Fonts\OpenSans\LICENSE.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\app_licensing\an_licensing_library.txt" />
+     <None Include="Assets\Plugins\StansAssets\Versions\UM_VersionInfo.txt" />
+     <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
+     <None Include="Assets\3D Infinite Runner\Resources\Shaders\Curved.shader" />
+     <None Include="Assets\Plugins\StansAssets\IOS\ISN_SocialGate.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\IOS\ISN_CloudKit.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\mobilenativepopups.txt" />
+     <None Include="Assets\Gamestrap UI\Fonts\Basis33\README.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\google_play\an_googleplay.txt" />
+     <None Include="Assets\Plugins\StansAssets\IOS\ISN_NativeCore.h.txt" />
+     <None Include="Assets\Plugins\StansAssets\IOS\ISN_Soomla.mm.txt" />
+     <None Include="Assets\Gamestrap UI\Fonts\Polaris\FontInfo.txt" />
+     <None Include="Assets\Gamestrap UI\Fonts\Bigfish\FontInfo.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\libs\android-support-v4.txt" />
+     <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Holoville\readme.txt" />
+     <None Include="Assets\Plugins\StansAssets\IOS\ISN_ReplayKit.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\libs\an_sa_soomla.txt" />
+     <None Include="Assets\Extensions\GoogleMobileAd\Documentation\GMA_VersionNotes.txt" />
+     <None Include="Assets\Plugins\Android\AN_Res\res\values\analytics.xml" />
+     <None Include="Assets\Plugins\StansAssets\IOS\ISN_NSData+Base64.m.txt" />
+     <None Include="Assets\PlayMaker\Resources\PlayMakerAssemblies.txt" />
+     <None Include="Assets\Plugins\StansAssets\Versions\MSP_VersionInfo.txt" />
+     <None Include="Assets\Plugins\StansAssets\IOS\ISN_Media.mm.txt" />
+     <None Include="Assets\Extensions\UltimateMobile\Documentation\UM_VersionNotes.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\social\an_social.txt" />
+     <None Include="Assets\Plugins\StansAssets\IOS\ISN_GameCenter.mm.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\AN_Res\res\values\version.xml" />
+     <None Include="Assets\Plugins\StansAssets\Android\AN_Res\res\xml\file_paths.xml" />
+     <None Include="Assets\3D Infinite Runner\Resources\Sounds\_Credits.txt" />
+     <None Include="Assets\Plugins\StansAssets\Android\AN_Res\res\values\ids.xml" />
+     <None Include="Assets\HOTween\HOTween_License.txt" />
+     <None Include="Assets\Plugins\Android\AN_Res\res\values\ids.xml" />
+     <None Include="Assets\Holoville\HOUnityEditor\Editor\HOEditorUtils.xml" />
+     <None Include="Assets\Plugins\StansAssets\Versions\ISN_VersionInfo.txt" />
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>/Users/JO/Downloads/Runner22 copy/Runner22/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.EditorTestsRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="HOEditorGUIFramework">
+ <HintPath>/Users/JO/Downloads/Runner22 copy/Runner22/Assets/Holoville/HOUnityEditor/Editor/HOEditorGUIFramework.dll</HintPath>
+ </Reference>
+ <Reference Include="HOEditorUtils">
+ <HintPath>/Users/JO/Downloads/Runner22 copy/Runner22/Assets/Holoville/HOUnityEditor/Editor/HOEditorUtils.dll</HintPath>
+ </Reference>
+ <Reference Include="HOTween">
+ <HintPath>/Users/JO/Downloads/Runner22 copy/Runner22/Assets/HOTween/HOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="HOTweenV1_Editor">
+ <HintPath>/Users/JO/Downloads/Runner22 copy/Runner22/Assets/HOTween/Editor/HOTweenV1_Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor">
+ <HintPath>/Users/JO/Downloads/Runner22 copy/Runner22/Assets/PlayMaker/Editor/PlayMakerEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditorResources">
+ <HintPath>/Users/JO/Downloads/Runner22 copy/Runner22/Assets/PlayMaker/Editor/PlayMakerEditorResources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.de.resources">
+ <HintPath>/Users/JO/Downloads/Runner22 copy/Runner22/Assets/PlayMaker/Editor/de/PlayMakerEditor.de.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.es-ES.resources">
+ <HintPath>/Users/JO/Downloads/Runner22 copy/Runner22/Assets/PlayMaker/Editor/es-ES/PlayMakerEditor.es-ES.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.fr.resources">
+ <HintPath>/Users/JO/Downloads/Runner22 copy/Runner22/Assets/PlayMaker/Editor/fr/PlayMakerEditor.fr.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.it.resources">
+ <HintPath>/Users/JO/Downloads/Runner22 copy/Runner22/Assets/PlayMaker/Editor/it/PlayMakerEditor.it.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.ja.resources">
+ <HintPath>/Users/JO/Downloads/Runner22 copy/Runner22/Assets/PlayMaker/Editor/ja/PlayMakerEditor.ja.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.nl.resources">
+ <HintPath>/Users/JO/Downloads/Runner22 copy/Runner22/Assets/PlayMaker/Editor/nl/PlayMakerEditor.nl.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.pt-BR.resources">
+ <HintPath>/Users/JO/Downloads/Runner22 copy/Runner22/Assets/PlayMaker/Editor/pt-BR/PlayMakerEditor.pt-BR.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.sv-SE.resources">
+ <HintPath>/Users/JO/Downloads/Runner22 copy/Runner22/Assets/PlayMaker/Editor/sv-SE/PlayMakerEditor.sv-SE.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.zh-CN.resources">
+ <HintPath>/Users/JO/Downloads/Runner22 copy/Runner22/Assets/PlayMaker/Editor/zh-CN/PlayMakerEditor.zh-CN.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.zh-TW.resources">
+ <HintPath>/Users/JO/Downloads/Runner22 copy/Runner22/Assets/PlayMaker/Editor/zh-TW/PlayMakerEditor.zh-TW.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="GoogleAdsWP8">
+ <HintPath>/Users/JO/Downloads/Runner22 copy/Runner22/Assets/Plugins/GoogleAdsWP8.dll</HintPath>
+ </Reference>
+ <Reference Include="WP8Native">
+ <HintPath>/Users/JO/Downloads/Runner22 copy/Runner22/Assets/Plugins/WP8Native.dll</HintPath>
+ </Reference>
+ <Reference Include="WP8PopUps">
+ <HintPath>/Users/JO/Downloads/Runner22 copy/Runner22/Assets/Plugins/WP8PopUps.dll</HintPath>
+ </Reference>
+ <Reference Include="WSANative">
+ <HintPath>/Users/JO/Downloads/Runner22 copy/Runner22/Assets/Plugins/WSANative.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMaker">
+ <HintPath>/Users/JO/Downloads/Runner22 copy/Runner22/Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Common">
+ <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{ABEE194F-B9FC-BA19-3D6D-ED9F2EDEFBB0}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

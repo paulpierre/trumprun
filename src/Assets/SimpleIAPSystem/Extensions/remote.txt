@@ -1,0 +1,33 @@
+{
+  "bullets": {
+    "title": "myNewTitle",
+    "description": "myNewDescription",
+    "type": "consumable",
+    "virtualPrice": {
+      "0": {
+        "name": "coins",
+        "amount": 199
+      },
+	  "1": {
+		"name": "silver",
+		"amount": 40
+	  }
+    }
+  },
+  "jetpack": {
+    "title": "myNewTitle",
+    "description": "myNewDescription",
+    "type": "nonCons",
+    "virtualPrice": {
+      "0": {
+        "name": "coins",
+        "amount": 800
+      }
+    },
+    "requirement": {
+      "entry": "level",
+      "labelText": "unlock on level 5",
+      "target": 5
+    }
+  },
+}

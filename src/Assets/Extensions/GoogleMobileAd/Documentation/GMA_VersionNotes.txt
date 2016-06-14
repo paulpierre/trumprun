@@ -1,0 +1,192 @@
+7.2:
+Google Play Service updated to 8487000 version
+Compatibility update
+
+7.4:
+Compatibility update
+
+7.3:
+Compatibility update
+
+7.2:
+Google Play Service updated to 8298000 version
+Compatibility update
+
+7.1.1:
+Plugin postprocessing player fix
+
+7.1:
+Compatibility update
+
+7.0.1:
+Compatibility update
+
+7.0:
+Updated to work with the new Google Mobile AD SDK
+IsInterstitialReady property added. Read more: https://goo.gl/HQ8fxT
+
+6.9
+Ad Banner support Pause and Resume while application pause
+Compatibility update
+
+6.8.1
+Edior UI fixes
+Playmaker action fixes
+
+6.8:
+Compatibility update
+
+6.7:
+Compatibility update
+
+6.6
+GooglePlayServices library updated to version 7571000
+
+6.5:
+Compatibility update
+
+6.2:
+Unity 5 support added
+
+5.1:
+Compatibility Update
+IOS SDK updated. Read more: http://goo.gl/P0vuBl
+
+5.0:
+Compatibility Update
+
+4.2:
+Compatibility Update
+
+4.1:
+IO SDK update to  6.12.2
+Documentation urls added to the plugin menu 
+
+
+Refactor:
+Spelling fixes
+GoogleGenger -> GoogleGender 
+Note: please remove old GoogleGenger manually 
+
+
+4.0:
+Android Manifest Generation
+Android Manifest Cleaup
+Resources clean up
+
+
+
+3.9:
+Editor Improvments
+Dependencies clean up
+Plugin does not requiers main activity anymore.
+Red more here: http://goo.gl/9PBhHz
+
+
+Fixes:
+IOS destory banner fixed
+
+
+3.8:
+Goggle Ad SDK version updated
+
+Refactor:
+Flash Like event system now use own namespace: UnionAssets.FLE
+
+Read More:
+http://goo.gl/3yt8Rq
+
+3.7:
+IOS Banner size fixed
+Post Process script improved
+Test Device Editor Menu Added
+Addiont Mutliple Test device on IOS Fixed
+
+
+3.6:
+Fixes For IOS8
+Google Ad SDK updated
+3.8:
+Refactor:
+Flash Like event system now use own namespace: UnionAssets.FLE
+
+Updates:
+As sdk updated to 6.12.0
+
+Read more about update:
+http://goo.gl/nEjz7b
+
+3.5:
+
+Fixes:
+WP8 Banner.ShowOnLoad fixed
+Duplicate on IOS build append fixed
+
+Updates:
+Visual Studio Project included
+WP8 Exception Tracking added
+GoogleAds.dll  updated to 6.5.13
+
+3.4:
+WP8 bannerrotation fixed
+AdMobBannerInterstitial script fixed
+Small Clean up
+*pdb files removed
+
+
+3.2:
+Edior Imporvments
+WP8 Test mode added
+WP8 Banners orintation fixed
+WP8 Interstisial Fixes
+
+3.1:
+
+New Features:
+!!!WP8 Support Added!!!
+
+
+New PlayMaker Actions:
+GAD_InitGoogleAdWithCustomIds
+
+
+
+3.0:
+New Features:
+Editor Settings UI
+
+New PlayMaker Actions:
+GAD_BannerEvents
+GAD_InterstitialEvents
+
+2.8:
+New Methods Added
+GoogleMobileAdBanner:
+SetBannerPosition(int x, int y);
+SetBannerPosition(TextAnchor anchor);
+GoogleMobileAd:
+AddTestDevices(params string[] ids);
+Example Scene updated
+
+Fixes:
+Test Ad Fixed
+
+Refactor:
+Moved:
+Assets/Plugins/Android - > Assets/StansAssets/Plugins/Android
+
+2.7:
+Common Lib updated
+
+2.6:
+Refactor  Singletone -> Singleton
+Documentation update
+
+2.5:
+IAP Listener added
+Play Maker support added
+Play Service Version updated
+
+2.4:
+Compatibility Upgrade
+Compatibility Upgrade with Unity 4.5

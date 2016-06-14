@@ -1,0 +1,23 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PowerUpControl.cs">
+    <Files>
+      <File FileName="Assets/CharacterSelectorPlusold/Scripts/GameManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/CharacterSelectorPlusold/Scripts/SelectorManager.cs" Line="503" Column="15" />
+      <File FileName="Assets/characterSwitch.cs" Line="1" Column="1" />
+      <File FileName="Assets/SimpleIAPSystem/Scripts/ShopManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/SimpleIAPSystem/Scripts/DBManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/SimpleIAPSystem/Scripts/IAPListener.cs" Line="1" Column="1" />
+      <File FileName="Assets/menuC.cs" Line="1" Column="1" />
+      <File FileName="Assets/PlayMaker/Editor/FsmEditorWindow.cs" Line="1" Column="1" />
+      <File FileName="Assets/Magpower.cs" Line="1" Column="1" />
+      <File FileName="Assets/SimpleIAPSystem/Scripts/IAPContainer.cs" Line="1" Column="1" />
+      <File FileName="Assets/Extensions/GoogleMobileAd/Example/Scripts/AdMobBannerInterstitial.cs" Line="1" Column="1" />
+      <File FileName="Assets/PowerUpControl.cs" Line="9" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

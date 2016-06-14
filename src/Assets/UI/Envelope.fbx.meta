@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: 9eba0d1526afd44e2807784ef4826940
+timeCreated: 1465168788
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: End
+    100002: End.2
+    100004: End.3
+    100006: End.4
+    100008: Envelope
+    100010: //RootNode
+    100012: Envelope.2
+    100014: Envelope.3
+    100016: Envelope.4
+    100018: Envelope.5
+    100020: Envelope.6
+    100022: Envelope.7
+    100024: Envelope.8
+    100026: Flap
+    100028: Flap.2
+    100030: Flap.3
+    100032: Flap.4
+    100034: Letter
+    100036: Letter Window
+    100038: Letter.2
+    100040: Letter.3
+    100042: Letter.4
+    100044: Letter.5
+    100046: Old
+    100048: Plain
+    100050: Root
+    100052: Root.2
+    100054: Root.3
+    100056: Root.4
+    100058: TopFlap
+    100060: TopFlap.2
+    100062: TopFlap.3
+    100064: TopFlap.4
+    400000: End
+    400002: End.2
+    400004: End.3
+    400006: End.4
+    400008: //RootNode
+    400010: Envelope
+    400012: Envelope.2
+    400014: Envelope.3
+    400016: Envelope.4
+    400018: Envelope.5
+    400020: Envelope.6
+    400022: Envelope.7
+    400024: Envelope.8
+    400026: Flap
+    400028: Flap.2
+    400030: Flap.3
+    400032: Flap.4
+    400034: Letter
+    400036: Letter Window
+    400038: Letter.2
+    400040: Letter.3
+    400042: Letter.4
+    400044: Letter.5
+    400046: Old
+    400048: Plain
+    400050: Root
+    400052: Root.2
+    400054: Root.3
+    400056: Root.4
+    400058: TopFlap
+    400060: TopFlap.2
+    400062: TopFlap.3
+    400064: TopFlap.4
+    2300000: Letter
+    2300002: Letter.2
+    2300004: Letter.4
+    2300006: Letter.5
+    3300000: Letter
+    3300002: Letter.2
+    3300004: Letter.4
+    3300006: Letter.5
+    4300000: Envelope
+    4300002: Letter
+    4300004: Envelope.3
+    4300006: Letter.2
+    4300008: Envelope.5
+    4300010: Letter.4
+    4300012: Envelope.7
+    4300014: Letter.5
+    9500000: //RootNode
+    13700000: Envelope
+    13700002: Envelope.3
+    13700004: Envelope.5
+    13700006: Envelope.7
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

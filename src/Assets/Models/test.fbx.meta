@@ -1,0 +1,1119 @@
+fileFormatVersion: 2
+guid: ffaf8670776e7493c898cf9daa78333f
+timeCreated: 1465075100
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Camera
+    100004: Lamp
+    100006: //RootNode
+    100008: Unity_updates:body
+    100010: Unity_updates:Eyes_blue
+    100012: Unity_updates:Hair_Blond
+    100014: Unity_updates:Head
+    100016: Unity_updates:HeadTop_End
+    100018: Unity_updates:HeadTop_End_end
+    100020: Unity_updates:Hips
+    100022: Unity_updates:LeftArm
+    100024: Unity_updates:LeftFoot
+    100026: Unity_updates:LeftForeArm
+    100028: Unity_updates:LeftHand
+    100030: Unity_updates:LeftHandIndex1
+    100032: Unity_updates:LeftHandIndex2
+    100034: Unity_updates:LeftHandIndex3
+    100036: Unity_updates:LeftHandIndex4
+    100038: Unity_updates:LeftHandIndex4_end
+    100040: Unity_updates:LeftHandMiddle1
+    100042: Unity_updates:LeftHandMiddle2
+    100044: Unity_updates:LeftHandMiddle3
+    100046: Unity_updates:LeftHandMiddle4
+    100048: Unity_updates:LeftHandMiddle4_end
+    100050: Unity_updates:LeftHandPinky1
+    100052: Unity_updates:LeftHandPinky2
+    100054: Unity_updates:LeftHandPinky3
+    100056: Unity_updates:LeftHandPinky4
+    100058: Unity_updates:LeftHandPinky4_end
+    100060: Unity_updates:LeftHandRing1
+    100062: Unity_updates:LeftHandRing2
+    100064: Unity_updates:LeftHandRing3
+    100066: Unity_updates:LeftHandRing4
+    100068: Unity_updates:LeftHandRing4_end
+    100070: Unity_updates:LeftHandThumb1
+    100072: Unity_updates:LeftHandThumb2
+    100074: Unity_updates:LeftHandThumb3
+    100076: Unity_updates:LeftHandThumb4
+    100078: Unity_updates:LeftHandThumb4_end
+    100080: Unity_updates:LeftLeg
+    100082: Unity_updates:LeftShoulder
+    100084: Unity_updates:LeftToe_End
+    100086: Unity_updates:LeftToe_End_end
+    100088: Unity_updates:LeftToeBase
+    100090: Unity_updates:LeftUpLeg
+    100092: Unity_updates:Neck
+    100094: Unity_updates:RightArm
+    100096: Unity_updates:RightFoot
+    100098: Unity_updates:RightForeArm
+    100100: Unity_updates:RightHand
+    100102: Unity_updates:RightHandIndex1
+    100104: Unity_updates:RightHandIndex2
+    100106: Unity_updates:RightHandIndex3
+    100108: Unity_updates:RightHandIndex4
+    100110: Unity_updates:RightHandIndex4_end
+    100112: Unity_updates:RightHandMiddle1
+    100114: Unity_updates:RightHandMiddle2
+    100116: Unity_updates:RightHandMiddle3
+    100118: Unity_updates:RightHandMiddle4
+    100120: Unity_updates:RightHandMiddle4_end
+    100122: Unity_updates:RightHandPinky1
+    100124: Unity_updates:RightHandPinky2
+    100126: Unity_updates:RightHandPinky3
+    100128: Unity_updates:RightHandPinky4
+    100130: Unity_updates:RightHandPinky4_end
+    100132: Unity_updates:RightHandRing1
+    100134: Unity_updates:RightHandRing2
+    100136: Unity_updates:RightHandRing3
+    100138: Unity_updates:RightHandRing4
+    100140: Unity_updates:RightHandRing4_end
+    100142: Unity_updates:RightHandThumb1
+    100144: Unity_updates:RightHandThumb2
+    100146: Unity_updates:RightHandThumb3
+    100148: Unity_updates:RightHandThumb4
+    100150: Unity_updates:RightHandThumb4_end
+    100152: Unity_updates:RightLeg
+    100154: Unity_updates:RightShoulder
+    100156: Unity_updates:RightToe_End
+    100158: Unity_updates:RightToe_End_end
+    100160: Unity_updates:RightToeBase
+    100162: Unity_updates:RightUpLeg
+    100164: Unity_updates:skinCluster1Set
+    100166: Unity_updates:skinCluster3Set
+    100168: Unity_updates:skinCluster4Set
+    100170: Unity_updates:Spine
+    100172: Unity_updates:Spine1
+    100174: Unity_updates:Spine2
+    400000: Armature
+    400002: Camera
+    400004: Lamp
+    400006: //RootNode
+    400008: Unity_updates:body
+    400010: Unity_updates:Eyes_blue
+    400012: Unity_updates:Hair_Blond
+    400014: Unity_updates:Head
+    400016: Unity_updates:HeadTop_End
+    400018: Unity_updates:HeadTop_End_end
+    400020: Unity_updates:Hips
+    400022: Unity_updates:LeftArm
+    400024: Unity_updates:LeftFoot
+    400026: Unity_updates:LeftForeArm
+    400028: Unity_updates:LeftHand
+    400030: Unity_updates:LeftHandIndex1
+    400032: Unity_updates:LeftHandIndex2
+    400034: Unity_updates:LeftHandIndex3
+    400036: Unity_updates:LeftHandIndex4
+    400038: Unity_updates:LeftHandIndex4_end
+    400040: Unity_updates:LeftHandMiddle1
+    400042: Unity_updates:LeftHandMiddle2
+    400044: Unity_updates:LeftHandMiddle3
+    400046: Unity_updates:LeftHandMiddle4
+    400048: Unity_updates:LeftHandMiddle4_end
+    400050: Unity_updates:LeftHandPinky1
+    400052: Unity_updates:LeftHandPinky2
+    400054: Unity_updates:LeftHandPinky3
+    400056: Unity_updates:LeftHandPinky4
+    400058: Unity_updates:LeftHandPinky4_end
+    400060: Unity_updates:LeftHandRing1
+    400062: Unity_updates:LeftHandRing2
+    400064: Unity_updates:LeftHandRing3
+    400066: Unity_updates:LeftHandRing4
+    400068: Unity_updates:LeftHandRing4_end
+    400070: Unity_updates:LeftHandThumb1
+    400072: Unity_updates:LeftHandThumb2
+    400074: Unity_updates:LeftHandThumb3
+    400076: Unity_updates:LeftHandThumb4
+    400078: Unity_updates:LeftHandThumb4_end
+    400080: Unity_updates:LeftLeg
+    400082: Unity_updates:LeftShoulder
+    400084: Unity_updates:LeftToe_End
+    400086: Unity_updates:LeftToe_End_end
+    400088: Unity_updates:LeftToeBase
+    400090: Unity_updates:LeftUpLeg
+    400092: Unity_updates:Neck
+    400094: Unity_updates:RightArm
+    400096: Unity_updates:RightFoot
+    400098: Unity_updates:RightForeArm
+    400100: Unity_updates:RightHand
+    400102: Unity_updates:RightHandIndex1
+    400104: Unity_updates:RightHandIndex2
+    400106: Unity_updates:RightHandIndex3
+    400108: Unity_updates:RightHandIndex4
+    400110: Unity_updates:RightHandIndex4_end
+    400112: Unity_updates:RightHandMiddle1
+    400114: Unity_updates:RightHandMiddle2
+    400116: Unity_updates:RightHandMiddle3
+    400118: Unity_updates:RightHandMiddle4
+    400120: Unity_updates:RightHandMiddle4_end
+    400122: Unity_updates:RightHandPinky1
+    400124: Unity_updates:RightHandPinky2
+    400126: Unity_updates:RightHandPinky3
+    400128: Unity_updates:RightHandPinky4
+    400130: Unity_updates:RightHandPinky4_end
+    400132: Unity_updates:RightHandRing1
+    400134: Unity_updates:RightHandRing2
+    400136: Unity_updates:RightHandRing3
+    400138: Unity_updates:RightHandRing4
+    400140: Unity_updates:RightHandRing4_end
+    400142: Unity_updates:RightHandThumb1
+    400144: Unity_updates:RightHandThumb2
+    400146: Unity_updates:RightHandThumb3
+    400148: Unity_updates:RightHandThumb4
+    400150: Unity_updates:RightHandThumb4_end
+    400152: Unity_updates:RightLeg
+    400154: Unity_updates:RightShoulder
+    400156: Unity_updates:RightToe_End
+    400158: Unity_updates:RightToe_End_end
+    400160: Unity_updates:RightToeBase
+    400162: Unity_updates:RightUpLeg
+    400164: Unity_updates:skinCluster1Set
+    400166: Unity_updates:skinCluster3Set
+    400168: Unity_updates:skinCluster4Set
+    400170: Unity_updates:Spine
+    400172: Unity_updates:Spine1
+    400174: Unity_updates:Spine2
+    2300000: Unity_updates:skinCluster1Set
+    2300002: Unity_updates:skinCluster3Set
+    2300004: Unity_updates:skinCluster4Set
+    3300000: Unity_updates:skinCluster1Set
+    3300002: Unity_updates:skinCluster3Set
+    3300004: Unity_updates:skinCluster4Set
+    4300000: Unity_updates:Hair_Blond
+    4300002: Unity_updates:Eyes_blue
+    4300004: Unity_updates:body
+    4300006: Unity_updates:skinCluster4Set
+    4300008: Unity_updates:skinCluster3Set
+    4300010: Unity_updates:skinCluster1Set
+    7400000: Armature|Armature|mixamo.com|Layer0
+    9500000: //RootNode
+    13700000: Unity_updates:body
+    13700002: Unity_updates:Eyes_blue
+    13700004: Unity_updates:Hair_Blond
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Unity_updates:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Unity_updates:RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: test(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Armature
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0.000000081460335, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Unity_updates:Hips
+      position: {x: 0.0000055131313, y: 1.0076334, z: 0.016466307}
+      rotation: {x: 0.0000005874978, y: 0.0000015994775, z: -0.00005217897, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Unity_updates:Spine
+      position: {x: 6.6256688e-12, y: 0.097753234, z: -0.001039811}
+      rotation: {x: -0.005318895, y: -0.0000018769255, z: 0.000052169726, w: 0.9999859}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Unity_updates:Spine1
+      position: {x: 1.3328785e-12, y: 0.114052, z: -0.0000000011920918}
+      rotation: {x: -0.0000000044237827, y: -4.988667e-14, z: -2.3215524e-10, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+      transformModified: 1
+    - name: Unity_updates:Spine2
+      position: {x: 1.9124923e-12, y: 0.13034528, z: -0.0000000011920919}
+      rotation: {x: -0.0000000044237827, y: -2.114194e-18, z: 3.4928427e-10, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+      transformModified: 1
+    - name: Unity_updates:Neck
+      position: {x: -3.5527836e-13, y: 0.14663781, z: -0.00000000476837}
+      rotation: {x: 0.005318317, y: -1.1971499e-12, z: 2.2100258e-13, w: 0.9999859}
+      scale: {x: 1, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: Unity_updates:Head
+      position: {x: 3.9807475e-13, y: 0.10254898, z: 0.0066857287}
+      rotation: {x: -1.29706e-18, y: -5.3967467e-20, z: -2.3283067e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Unity_updates:HeadTop_End
+      position: {x: 2.9277107e-13, y: 0.23711745, z: 0.015458991}
+      rotation: {x: -3.6905027e-21, y: 5.445274e-20, z: -1.535247e-20, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Unity_updates:HeadTop_End_end
+      position: {x: -0, y: 0.23762085, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Unity_updates:LeftShoulder
+      position: {x: -0.06724612, y: 0.12566245, z: 0.00022393702}
+      rotation: {x: 0.56138194, y: -0.43053472, z: 0.5593031, w: 0.43205348}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+      transformModified: 1
+    - name: Unity_updates:LeftArm
+      position: {x: -0.00000000230968, y: 0.14380032, z: -0.0000001561828}
+      rotation: {x: -0.12905236, y: -0.0003102084, z: 0.0018750746, w: 0.991636}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: Unity_updates:LeftForeArm
+      position: {x: 0.0000000025894404, y: 0.24220912, z: 0.000000025638146}
+      rotation: {x: 0.0000013698955, y: 0.00013260779, z: 0.00000020575952, w: 1}
+      scale: {x: 0.99999964, y: 0.9999997, z: 0.99999976}
+      transformModified: 1
+    - name: Unity_updates:LeftHand
+      position: {x: -8.847928e-10, y: 0.23831537, z: 0.00000002343906}
+      rotation: {x: -0.0038791762, y: -0.0017335127, z: 0.060233835, w: 0.99817526}
+      scale: {x: 1, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: Unity_updates:LeftHandThumb1
+      position: {x: 0.029798646, y: 0.03473723, z: 0.016789915}
+      rotation: {x: 0.06966772, y: -0.015729723, z: -0.41307953, w: 0.9078901}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
+      transformModified: 1
+    - name: Unity_updates:LeftHandThumb2
+      position: {x: -0.00070399046, y: 0.038993545, z: 0.00000017523764}
+      rotation: {x: 0.0000017845736, y: -0.00017423386, z: 0.013353933, w: 0.99991083}
+      scale: {x: 1, y: 0.99999976, z: 0.99999994}
+      transformModified: 1
+    - name: Unity_updates:LeftHandThumb3
+      position: {x: 0.0003363037, y: 0.03881829, z: -0.000000044107438}
+      rotation: {x: -0.0000016558921, y: -0.00020498698, z: 0.00085136923, w: 0.99999964}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1.0000001}
+      transformModified: 1
+    - name: Unity_updates:LeftHandThumb4
+      position: {x: 0.00036768435, y: 0.035522785, z: -0.00000022172928}
+      rotation: {x: 0.00000006146728, y: 0.00000009080393, z: -0.000000035855912,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: Unity_updates:LeftHandThumb4_end
+      position: {x: -0, y: 0.035524912, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Unity_updates:LeftHandIndex1
+      position: {x: 0.03892794, y: 0.11385422, z: 0.0010196434}
+      rotation: {x: 0.0037880226, y: 0.00020853266, z: -0.06025567, w: 0.9981758}
+      scale: {x: 1, y: 0.9999998, z: 0.9999999}
+      transformModified: 1
+    - name: Unity_updates:LeftHandIndex2
+      position: {x: -0.00000090510116, y: 0.032479238, z: 0.00000014551915}
+      rotation: {x: -0.000001634013, y: -0.0000090442645, z: -0.00030399472, w: 0.99999994}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+      transformModified: 1
+    - name: Unity_updates:LeftHandIndex3
+      position: {x: -0.000018741264, y: 0.029758226, z: -0.00000018736347}
+      rotation: {x: 0.0000014729312, y: -0.0000045898087, z: 0.0007113106, w: 0.99999976}
+      scale: {x: 1.0000001, y: 1, z: 1}
+      transformModified: 1
+    - name: Unity_updates:LeftHandIndex4
+      position: {x: 0.000019664614, y: 0.025511017, z: -0.00000021763611}
+      rotation: {x: -0.000000040406583, y: 0.0000000010359413, z: 0.000000012187472,
+        w: 1}
+      scale: {x: 0.9999999, y: 1, z: 0.9999998}
+      transformModified: 1
+    - name: Unity_updates:LeftHandIndex4_end
+      position: {x: -0, y: 0.025511062, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Unity_updates:LeftHandMiddle1
+      position: {x: 0.013838384, y: 0.11422731, z: 0.0008676362}
+      rotation: {x: 0.0036762648, y: -0.0016246805, z: -0.060233574, w: 0.9981762}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+      transformModified: 1
+    - name: Unity_updates:LeftHandMiddle2
+      position: {x: 0.0000012301374, y: 0.03618155, z: 0.00000004803296}
+      rotation: {x: -0.0000002015927, y: -0.0000017855833, z: -0.0001021205, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: Unity_updates:LeftHandMiddle3
+      position: {x: -0.000005640294, y: 0.033958025, z: -0.00000008617062}
+      rotation: {x: 0.00000077693727, y: 0.00000080629025, z: 0.00015608151, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+      transformModified: 1
+    - name: Unity_updates:LeftHandMiddle4
+      position: {x: 0.0000044111252, y: 0.029538507, z: -0.00000022334744}
+      rotation: {x: 0.000000041502226, y: -3.5795322e-10, z: -0.0000000015726815,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Unity_updates:LeftHandMiddle4_end
+      position: {x: -0, y: 0.029538294, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Unity_updates:LeftHandRing1
+      position: {x: -0.010253806, y: 0.11382115, z: 0.0010360392}
+      rotation: {x: 0.003639562, y: -0.0022408785, z: -0.060445156, w: 0.9981624}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: Unity_updates:LeftHandRing2
+      position: {x: -0.000011959709, y: 0.030517837, z: -0.000000009553041}
+      rotation: {x: 0.00000033158267, y: -0.000007795138, z: 0.00008274232, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: Unity_updates:LeftHandRing3
+      position: {x: -0.0000068566947, y: 0.03075638, z: 0.000000098665474}
+      rotation: {x: 0.0000009695764, y: -0.000021437221, z: 0.00047495606, w: 0.9999999}
+      scale: {x: 0.9999998, y: 0.9999997, z: 0.99999994}
+      transformModified: 1
+    - name: Unity_updates:LeftHandRing4
+      position: {x: 0.000018817036, y: 0.0263015, z: -0.0000000598689}
+      rotation: {x: 0.00000002478666, y: -1.184346e-10, z: 0.0000000016304381, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: Unity_updates:LeftHandRing4_end
+      position: {x: -0, y: 0.02630158, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Unity_updates:LeftHandPinky1
+      position: {x: -0.04251253, y: 0.10051315, z: 0.00029849113}
+      rotation: {x: 0.0037158083, y: -0.00095941557, z: -0.06002826, w: 0.99818933}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.99999994}
+      transformModified: 1
+    - name: Unity_updates:LeftHandPinky2
+      position: {x: 0.000013147666, y: 0.03002481, z: 0.00000012577743}
+      rotation: {x: -0.0000007184221, y: 0.0000009112009, z: 0.000012839043, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: Unity_updates:LeftHandPinky3
+      position: {x: 0.000011290498, y: 0.024050614, z: -0.00000013936311}
+      rotation: {x: -0.0000005320822, y: 0.000020422149, z: -0.0008291342, w: 0.99999964}
+      scale: {x: 1, y: 1, z: 0.99999994}
+      transformModified: 1
+    - name: Unity_updates:LeftHandPinky4
+      position: {x: -0.000024413914, y: 0.019998247, z: -0.000000020591541}
+      rotation: {x: -0.00000006582229, y: 0.0000000017396413, z: 0.0000000011570762,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Unity_updates:LeftHandPinky4_end
+      position: {x: -0, y: 0.019998174, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Unity_updates:RightShoulder
+      position: {x: 0.06724611, y: 0.12567195, z: -0.00067008135}
+      rotation: {x: -0.5575967, y: -0.43322363, z: 0.56302476, w: -0.42942563}
+      scale: {x: 0.9999998, y: 0.9999997, z: 0.99999994}
+      transformModified: 1
+    - name: Unity_updates:RightArm
+      position: {x: 1.4901161e-10, y: 0.14380036, z: 0.000000018095598}
+      rotation: {x: -0.12897325, y: -0.0007777671, z: 0.0048206537, w: 0.99163604}
+      scale: {x: 1, y: 0.9999998, z: 1}
+      transformModified: 1
+    - name: Unity_updates:RightForeArm
+      position: {x: 0.0000000010845542, y: 0.24221288, z: -0.00000006578659}
+      rotation: {x: 0.00000020991851, y: -0.00021550317, z: -0.000000066331545, w: 1}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.99999994}
+      transformModified: 1
+    - name: Unity_updates:RightHand
+      position: {x: 3.3316608e-10, y: 0.23833375, z: 0.0000002611149}
+      rotation: {x: -0.0031986365, y: 0.008383968, z: -0.05640616, w: 0.9983676}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+      transformModified: 1
+    - name: Unity_updates:RightHandThumb1
+      position: {x: -0.031251602, y: 0.03821078, z: 0.01838693}
+      rotation: {x: 0.069341674, y: 0.007909445, z: 0.39746022, w: 0.91496146}
+      scale: {x: 1, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: Unity_updates:RightHandThumb2
+      position: {x: -0.00035428285, y: 0.04213981, z: -0.00000014662743}
+      rotation: {x: 0.000007374399, y: -0.00052575517, z: -0.0070975507, w: 0.99997467}
+      scale: {x: 0.9999999, y: 1, z: 1}
+      transformModified: 1
+    - name: Unity_updates:RightHandThumb3
+      position: {x: -0.00082790374, y: 0.036637012, z: 0.00000014781952}
+      rotation: {x: -0.0000024915742, y: -0.0003409334, z: 0.031256877, w: 0.99951136}
+      scale: {x: 1, y: 1, z: 0.9999999}
+      transformModified: 1
+    - name: Unity_updates:RightHandThumb4
+      position: {x: 0.0011821443, y: 0.029587086, z: 0.00000015497207}
+      rotation: {x: -0.000000009313226, y: -0.00000006050686, z: -0.00000003677269,
+        w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+      transformModified: 1
+    - name: Unity_updates:RightHandThumb4_end
+      position: {x: -0, y: 0.02961049, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Unity_updates:RightHandIndex1
+      position: {x: -0.03791457, y: 0.11661445, z: 0.0005303894}
+      rotation: {x: 0.0027182058, y: 0.00013131766, z: 0.056399774, w: 0.99840456}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999998}
+      transformModified: 1
+    - name: Unity_updates:RightHandIndex2
+      position: {x: -0.0000024452013, y: 0.031872768, z: -0.000000033634134}
+      rotation: {x: 0.00000029934444, y: 0.000009750207, z: 0.00031066933, w: 0.99999994}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+      transformModified: 1
+    - name: Unity_updates:RightHandIndex3
+      position: {x: 0.00001630213, y: 0.028638791, z: -0.00000015706638}
+      rotation: {x: -0.00000069482115, y: -0.0000005707927, z: -0.00055147795, w: 0.9999999}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: Unity_updates:RightHandIndex4
+      position: {x: -0.00001387462, y: 0.025724884, z: 0.00000023444532}
+      rotation: {x: 0.000000075179145, y: -6.735996e-10, z: -0.0000000062016237, w: 1}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: Unity_updates:RightHandIndex4_end
+      position: {x: -0, y: 0.025724838, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Unity_updates:RightHandMiddle1
+      position: {x: -0.013128491, y: 0.11576164, z: 0.00063371845}
+      rotation: {x: 0.0026381677, y: 0.0015392548, z: 0.05643509, w: 0.9984016}
+      scale: {x: 1, y: 1.0000001, z: 0.9999999}
+      transformModified: 1
+    - name: Unity_updates:RightHandMiddle2
+      position: {x: 0.00000015482175, y: 0.0367626, z: 0.0000002731185}
+      rotation: {x: 0.000001122951, y: 0.00000011307601, z: 0.000030611867, w: 1}
+      scale: {x: 0.9999999, y: 0.9999997, z: 0.99999976}
+      transformModified: 1
+    - name: Unity_updates:RightHandMiddle3
+      position: {x: 0.000001951442, y: 0.032626946, z: -0.000000031478702}
+      rotation: {x: -0.0000003682138, y: 0.00000022568703, z: -0.000066003595, w: 1}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.9999999}
+      transformModified: 1
+    - name: Unity_updates:RightHandMiddle4
+      position: {x: -0.0000021096364, y: 0.028224453, z: 0.00000012775882}
+      rotation: {x: -0.000000050622102, y: -1.176136e-10, z: -6.354295e-10, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: Unity_updates:RightHandMiddle4_end
+      position: {x: -0, y: 0.028224496, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Unity_updates:RightHandRing1
+      position: {x: 0.01063492, y: 0.11110399, z: 0.0014908297}
+      rotation: {x: 0.002534916, y: 0.0033722396, z: 0.056379907, w: 0.9984005}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+      transformModified: 1
+    - name: Unity_updates:RightHandRing2
+      position: {x: -0.000003511887, y: 0.03323969, z: -0.000000105436776}
+      rotation: {x: -0.00000021338414, y: -0.000001006581, z: 0.00007639497, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 0.9999998}
+      transformModified: 1
+    - name: Unity_updates:RightHandRing3
+      position: {x: 0.0000008469377, y: 0.030944237, z: 0.00000019395374}
+      rotation: {x: -0.0000004505033, y: 0.00000079836377, z: 0.000039741062, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: Unity_updates:RightHandRing4
+      position: {x: 0.0000026639364, y: 0.026828894, z: 0.00000011389376}
+      rotation: {x: -0.000000003915404, y: -0.000000057042723, z: -0.000000042719734,
+        w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.9999998}
+      transformModified: 1
+    - name: Unity_updates:RightHandRing4_end
+      position: {x: -0, y: 0.026828902, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Unity_updates:RightHandPinky1
+      position: {x: 0.04040814, y: 0.0992852, z: 0.00035951412}
+      rotation: {x: 0.0024532336, y: 0.004818811, z: 0.056458812, w: 0.9983903}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: Unity_updates:RightHandPinky2
+      position: {x: 0.0000009987177, y: 0.031090299, z: -0.000000015462282}
+      rotation: {x: -0.0000004163472, y: -0.0000023733587, z: -0.00015277881, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999976}
+      transformModified: 1
+    - name: Unity_updates:RightHandPinky3
+      position: {x: -0.000006814953, y: 0.025594516, z: 0.000000059538287}
+      rotation: {x: -0.0000015915153, y: -0.000000011908473, z: 0.00027164846, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: Unity_updates:RightHandPinky4
+      position: {x: 0.0000057790426, y: 0.022192916, z: -0.000000023170722}
+      rotation: {x: 0.000000070827696, y: -7.6646476e-12, z: 0.000000012582731, w: 1}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: Unity_updates:RightHandPinky4_end
+      position: {x: -0, y: 0.02219267, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Unity_updates:LeftUpLeg
+      position: {x: -0.08428579, y: -0.054416373, z: -0.017692432}
+      rotation: {x: -0.00013916258, y: 0.0040940656, z: 0.9999905, w: 0.0014638553}
+      scale: {x: 1.000799, y: 1, z: 1.0001787}
+      transformModified: 1
+    - name: Unity_updates:LeftLeg
+      position: {x: -0.0000000013192948, y: 0.4211267, z: -2.0023434e-10}
+      rotation: {x: -0.037389874, y: 0.000023229002, z: 0.002973251, w: 0.99929637}
+      scale: {x: 0.9999999, y: 1, z: 1}
+      transformModified: 1
+    - name: Unity_updates:LeftFoot
+      position: {x: 0.0000000034456025, y: 0.4339736, z: 0.000000002128072}
+      rotation: {x: 0.5117832, y: 0.008521092, z: 0.0048132855, w: 0.859059}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+      transformModified: 1
+    - name: Unity_updates:LeftToeBase
+      position: {x: -0.000000013001263, y: 0.14960033, z: 0.000000016093253}
+      rotation: {x: 0.25952458, y: -0.0136372885, z: 0.0036593103, w: 0.9656333}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999998}
+      transformModified: 1
+    - name: Unity_updates:LeftToe_End
+      position: {x: 0.00000002214685, y: 0.05785284, z: -0.0000000014528632}
+      rotation: {x: 0.00000008755954, y: 0.000011237474, z: 0.000000030726362, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+      transformModified: 1
+    - name: Unity_updates:LeftToe_End_end
+      position: {x: -0, y: 0.057863362, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Unity_updates:RightUpLeg
+      position: {x: 0.08428581, y: -0.054416403, z: -0.015794195}
+      rotation: {x: 0.00006433323, y: -0.00093799806, z: 0.99999833, w: -0.0015640142}
+      scale: {x: 0.9999102, y: 0.99999994, z: 0.9999524}
+      transformModified: 1
+    - name: Unity_updates:RightLeg
+      position: {x: 0.00000000834347, y: 0.4211393, z: 1.5657861e-10}
+      rotation: {x: -0.029670792, y: 0.000084297644, z: -0.002970477, w: 0.99955535}
+      scale: {x: 1.0000001, y: 1, z: 1}
+      transformModified: 1
+    - name: Unity_updates:RightFoot
+      position: {x: -0.0000000074651325, y: 0.43376172, z: -7.3516276e-10}
+      rotation: {x: 0.50794303, y: -0.008559956, z: -0.0048212125, w: 0.8613346}
+      scale: {x: 1, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: Unity_updates:RightToeBase
+      position: {x: -0.000000016130507, y: 0.14876583, z: 0.000000012814998}
+      rotation: {x: 0.26149517, y: 0.013605732, z: -0.0036871508, w: 0.96510184}
+      scale: {x: 0.99999994, y: 0.99999964, z: 0.99999994}
+      transformModified: 1
+    - name: Unity_updates:RightToe_End
+      position: {x: -0.0000000014621764, y: 0.058693077, z: -0.000000002682209}
+      rotation: {x: -0.000000026504495, y: 0.0000013869285, z: -0.00000011419252,
+        w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: Unity_updates:RightToe_End_end
+      position: {x: -0, y: 0.05869026, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Camera
+      position: {x: -7.4811316, y: 5.343665, z: 6.5076394}
+      rotation: {x: 0.21061136, y: 0.90524006, z: -0.08928164, w: -0.35806713}
+      scale: {x: 100, y: 100, z: 100}
+      transformModified: 1
+    - name: Lamp
+      position: {x: -4.0762453, y: 5.903862, z: -1.005454}
+      rotation: {x: 0.16907571, y: -0.75588036, z: 0.27217132, w: 0.57094747}
+      scale: {x: 100.000015, y: 100, z: 100.00001}
+      transformModified: 1
+    - name: Unity_updates:body
+      position: {x: 0.0000000035760854, y: 0.000000028982758, z: -0.000000005337054}
+      rotation: {x: 0.000000081460335, y: 1.0842022e-19, z: -1.3510176e-19, w: 1}
+      scale: {x: 1, y: 1, z: 0.9999999}
+      transformModified: 1
+    - name: Unity_updates:Eyes_blue
+      position: {x: 0, y: 1.4470262e-24, z: -8.881784e-18}
+      rotation: {x: 0.000000081460335, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Unity_updates:Hair_Blond
+      position: {x: 0, y: 1.4470262e-24, z: -8.881784e-18}
+      rotation: {x: 0.000000081460335, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Unity_updates:skinCluster1Set
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0.000000081460335, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Unity_updates:skinCluster3Set
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0.000000081460335, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Unity_updates:skinCluster4Set
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0.000000081460335, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
